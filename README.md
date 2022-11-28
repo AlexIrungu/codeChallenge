@@ -1,17 +1,22 @@
 # codeChallenge
+
 # Name of the Project
 Phase-One Code Challenge
 # Project Description
+
 The code challenge consisted of three challenges:
 1. Student Grade Generator
 2. Speed Detector (Toy Problem)
 3. Net Salary Calculator (Toy Problem)
 ## Project Setup
+
 ### Requirements
 Text Editor e.g Visual Studio Code
 [language] : [Javascript]
+
 # Author
 Alex Irungu
+
 # License
 MIT License
 Copyright (c) [2022] COPYRIGHT HOLDER

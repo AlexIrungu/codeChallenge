@@ -1,40 +1,4 @@
-//codechallenge1
-let grade;
-function assessGrade(grade){
-
-if (grade > 79){
-    return 'A'
-}else if (grade > 60 && grade < 80){
-    return 'B'
-}else if (grade > 49 && grade < 59){
-    return 'C'
-}else if (grade > 40 && grade < 49){
-    return 'D'
-}else if(grade < 40){
-    return 'E'
-}
-}
-console.log (assessGrade(90))
-
-
-//codechallenge2
-let speed;
-function speedDetector(speed){
-    if(speed < 70){
-        return 'Ok'
-    }else if(speed >= 70){
-        let velocity = (speed - 70) / 5
-        if (velocity > 12){
-            return ("License suspended")
-        }else{
-            return ("Demerit: " + velocity)
-        }
-    }
-}
-console.log(speedDetector(80))
-
-
-//codeChallenge 3
+//code challenge 3
 let salary;
 let benefits;
 let NHIF;
@@ -99,23 +63,3 @@ console.log('Gross salary:', gross)
 
 }
         console.log(calcPay(60000, 5000));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
