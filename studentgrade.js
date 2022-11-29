@@ -14,5 +14,5 @@ if (grade > 79){
     return 'E'
 }
 }
-console.log (assessGrade(90))
+console.log (assessGrade(70))
 

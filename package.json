@@ -1,20 +1,21 @@
 {
   "name": "codechallenge",
   "version": "1.0.0",
-  "description": "FirstCodeChallenge",
-  "main": "index.js",
+  "description": "First code challenge",
+  "main": "netsalary.js",
   "scripts": {
     "test": "npm test",
-    "start": "node index.js"
+    "start": "node studentgrade.js, node speeddetector.js , node netsalary.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexIrungu/codeChallenge.git"
   },
   "keywords": [
-    "CodeChallenge"
+    "code",
+    "challenge"
   ],
-  "author": "AlexIrungu",
+  "author": "Alex Irungu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlexIrungu/codeChallenge/issues"
