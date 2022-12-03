@@ -1,5 +1,9 @@
 //codechallenge1
-let grade;
+//prompt command: every time you test you will be prompted to input marks
+const prompt = require('prompt-sync')();
+//the user is told to input marks
+let grade = prompt('Please enter marks: ')
+//checking condition for different grades
 function assessGrade(grade){
 
 if (grade > 79){
@@ -14,5 +18,6 @@ if (grade > 79){
     return 'E'
 }
 }
-console.log (assessGrade(70))
+//we call the function to assess the grades inputed
+console.log (assessGrade(grade))
 

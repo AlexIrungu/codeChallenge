@@ -1,5 +1,9 @@
 //code challenge 2
-let speed;
+//prompt command: every time the speed test runs
+const prompt = require('prompt-sync')();
+//the user is asked to input marks
+let speed = prompt('Please enter speed: ')
+//the function speedDetector is declared
 function speedDetector(speed){
     if(speed < 70){
         return 'Ok'
@@ -12,4 +16,5 @@ function speedDetector(speed){
         }
     }
 }
-console.log(speedDetector(80))
+//we call the function speedDetector
+console.log(speedDetector(speed))

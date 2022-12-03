@@ -1,11 +1,16 @@
 //code challenge 3
-let salary;
-let benefits;
+//prompt command every time the netsalary is checked
+const prompt = require('prompt-sync')();
+//the user is asked to input the salary
+let salary = prompt('Please enter your salary: ')
+//the user is asked to input the benefits
+let benefits = prompt('Please enter your benefits: ')
 let NHIF;
 let NSSF;
 let PAYE;
+//we declare the function calcPay to calculate the gross pay
 function calcPay(salary, benefits){
-    let gross = salary + benefits;
+    let gross = +salary + +benefits;
     let NSSF = gross * 0.06;
     // let netCalculator = gross;
 if (gross <= 24000) {
@@ -17,8 +22,11 @@ if (gross <= 24000) {
     else if (gross >= 24001) {
         PAYE = (gross*0.25)
     }
+    //the gross salary is outputed
 console.log('Gross salary:', gross)
+//the PAYE deductions are outputed
  console.log('PAYE deductions:', PAYE)
+ //the NSSF deductions are outputed
  console.log('NSSF deduction:', NSSF)
 //NHIF
         if (gross <= 5999 ){
@@ -56,10 +64,14 @@ console.log('Gross salary:', gross)
         else if (gross >= 100000) {
             NHIF = (1700)
         }
+        //the NHIF deduction is outputed
     console.log('NHIF deduction:', NHIF)
+    //the total sum of PAYE,NSSF and NHIF are outputed
     console.log('Taxes: PAYE + NSSF + NHIF :', (NSSF + PAYE + NHIF ))
+    //we let netSalary to be equal to the total sum of NHIF,PAYE and NHIF deducted from the gross amount
     let netSalary = 'Net Salary:  ' + (gross - (NSSF + PAYE + NHIF ))
     return netSalary;
 
 }
-        console.log(calcPay(60000, 5000));
+//we call the function calcPay
+        console.log(calcPay(salary, benefits));

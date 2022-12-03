@@ -24,6 +24,9 @@ In order for you to use the content ensure you have the following:
 You can use the following steps to run the code
 
 -Install required dependancies from npm
+
+-run npm install propmt-sync 
+
 -To run the first file names "studentgrade.js"
     use node studentgrade.js
 -To run the second file named "speeddetector.js"

@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AlexIrungu/codeChallenge/issues"
   },
-  "homepage": "https://github.com/AlexIrungu/codeChallenge#readme"
+  "homepage": "https://github.com/AlexIrungu/codeChallenge#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
