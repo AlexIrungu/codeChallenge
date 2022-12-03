@@ -27,11 +27,11 @@ You can use the following steps to run the code
 
 -run npm install prompt-sync 
 
--To run the first file names "studentgrade.js"
+-To run the first file named "studentgrade.js"
     use node studentgrade.js
 -To run the second file named "speeddetector.js"
     use node speeddetector.js
--To run the third file namd "netsalary.js"
+-To run the third file named "netsalary.js"
     use node netsalary.js
 
 # Installation
