@@ -25,7 +25,7 @@ You can use the following steps to run the code
 
 -Install required dependancies from npm
 
--run npm install propmt-sync 
+-run npm install prompt-sync 
 
 -To run the first file names "studentgrade.js"
     use node studentgrade.js
